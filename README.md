@@ -32,11 +32,8 @@ Varad Vidya provides two major offerings:
 
 ## ✨ Key Features
 - Modern & minimal UI  
-- Course listing + detailed modules  
-- Course progress tracking  
-- Services showcase pages  
-- Lead capture (forms, WhatsApp CTA, etc.)  
-- Authentication & user roles  
+- Course list 
+- Services showcase  
 - Fully responsive  
 - High-performance & SEO-friendly  
 
