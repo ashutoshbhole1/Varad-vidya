@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2 animate-fade-in-down">
           <div className="w-12 h-10 rounded-lg bg-gradient-primary flex items-center justify-center  font-bold">
-            <img src="../public/Varad Vidya Logo hero.jpeg" alt="" />
+            <img src="/Varad Vidya Logo hero.jpeg" alt="" />
           </div>
           <span className="font-bold text-lg text-foreground ">VARAD VIDYA</span>
         </div>
