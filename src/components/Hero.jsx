@@ -105,7 +105,7 @@ export default function Hero() {
             </div> */}
 
 {/* hero girl image */}
-            <img src="/hero girl.png" alt="" />
+            <img src="/hero girl.png" alt="hero image - varad vidya" />
           </div>
         </div>
       </div>
