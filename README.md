@@ -1,4 +1,4 @@
-# ⭐ Varad Vidya – Online E-Learning & Business Services Platform
+# 🎓 Varad Vidya – Online E-Learning & Business Services Platform
 
 ![Project Banner](./public/Hero%20Banner.png)
 
