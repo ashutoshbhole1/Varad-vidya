@@ -1,8 +1,8 @@
 import React from 'react'
 
 const stats = [
-  { label: '50K+', description: 'Active Students', icon: '👥' },
-  { label: '500+', description: 'Courses Available', icon: '📚' },
+  { label: '5K+', description: 'Active Students', icon: '👥' },
+  { label: '10+', description: 'Courses Available', icon: '📚' },
   { label: '4.9★', description: 'Avg Rating', icon: '⭐' },
   { label: '98%', description: 'Success Rate', icon: '✅' },
 ]

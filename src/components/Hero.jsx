@@ -25,7 +25,7 @@ export default function Hero() {
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight text-foreground animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-                Your Digital Portal to <span className="bg-gradient-to-r from-primary  to-secondary bg-clip-text text-transparent">Excellence</span>
+                Your Gateway to <span className="bg-gradient-to-r from-primary  to-secondary bg-clip-text text-transparent">Skills & Excellence</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed animate-fade-in-up max-w-lg" style={{ animationDelay: '0.2s' }}>
                 Master in-demand skills with our expert-led courses. Learn at your own pace and transform your career with industry-standard education.
@@ -35,7 +35,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
               <button className="group px-8 py-4 bg-gradient-primary text-primary rounded-lg font-semibold flex items-center gap-2 hover:shadow-xl transition-smooth hover:-translate-y-1 border-2 border-primary/30">
-                Get Started 
+              <a href="#"> Explore Skill Programs </a>
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
               {/* <button className="px-8 py-4 border-2 border-primary/30 text-primary rounded-lg font-semibold flex items-center gap-2 hover:bg-primary/5 transition-smooth hover:border-primary/60">
@@ -47,7 +47,7 @@ export default function Hero() {
             {/* Trust Indicators */}
             <div className="flex flex-wrap gap-6 pt-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary font-bold">50K</div>
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary font-bold">5K</div>
                 <div className="text-sm">
                   <p className="font-semibold text-foreground">Active Students</p>
                   <p className="text-slate-500">Worldwide</p>
@@ -57,7 +57,7 @@ export default function Hero() {
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center text-secondary font-bold">★</div>
                 <div className="text-sm">
                   <p className="font-semibold text-foreground">4.9 Rating</p>
-                  <p className="text-slate-500">From 5000+ Reviews</p>
+                  <p className="text-slate-500">From 1000+ Reviews</p>
                 </div>
               </div>
             </div>

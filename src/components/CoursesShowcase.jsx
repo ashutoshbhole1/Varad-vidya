@@ -4,21 +4,27 @@ import { ShoppingCart } from 'lucide-react'
 const courses = [
   {
     image: '📊',
-    title: 'Advanced UI/UX Design',
-    category: 'Design',
-    price: '$99.99'
+    title: 'Skill Dvelopment ',
+    category: 'Skills',
+    price: '₹499/-'
   },
   {
     image: '💻',
-    title: 'Full Stack Development',
-    category: 'Development',
-    price: 'Free'
+    title: 'Public Speaking Fundamentals',
+    category: 'Skills',
+    price: '₹499/-'
   },
   {
     image: '🎨',
-    title: 'Digital Marketing Mastery',
+    title: 'Digital Marketing ',
     category: 'Marketing',
-    price: '$149.99'
+    price: '₹999/-'
+  },
+  {
+    image: '🎨',
+    title: 'Abacus Training ',
+    category: 'Skills',
+    price: '₹499/-'
   }
 ]
 
@@ -28,10 +34,10 @@ export default function CoursesShowcase() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up">
-            Master Highly-Demanded Skills in Hours, Not Weeks
+          Build Practical Skills for a Smarter Future
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            Our carefully curated courses focus on practical, job-ready skills
+           Skill-focused programs designed to help learners grow with confidence and clarity
           </p>
         </div>
 
@@ -54,6 +60,7 @@ export default function CoursesShowcase() {
                   <span className="text-sm font-bold text-secondary">{course.price}</span>
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors">{course.title}</h3>
+                <h5>sdfa</h5>
                 <button className="w-full py-2 px-4 bg-gradient-primary text-white rounded-lg font-semibold flex items-center justify-center gap-2 hover:shadow-lg transition-all group-hover:-translate-y-1">
                   <ShoppingCart size={18} />
                   Enroll Now

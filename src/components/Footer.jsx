@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Company */}
           <div>
-            <h4 className="font-bold text-lg mb-4">LMS</h4>
+            <h4 className="font-bold text-lg mb-4">VARAD VIDYA</h4>
             <p className="text-slate-400 text-sm leading-relaxed">
               Transform your learning journey with our cutting-edge platform and expert instructors.
             </p>
@@ -42,15 +42,15 @@ export default function Footer() {
             <ul className="space-y-3 text-slate-400 text-sm">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <a href="mailto:info@lms.com" className="hover:text-white transition">info@lms.com</a>
+                <a href="mailto:info@varadvidya.com" className="hover:text-white transition">info@varadvidya.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} />
-                <a href="tel:+1234567890" className="hover:text-white transition">+1 (234) 567-890</a>
+                <a href="tel:+917448148563" className="hover:text-white transition">+91 74481 48563</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>123 Learning St, NYC</span>
+                <span>Jalgaon (452001), Maharashtra, India</span>
               </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <p className="text-slate-400 text-sm">© 2025 LMS. All rights reserved.</p>
+            <p className="text-slate-400 text-sm">© 2025 VARAD VIDYA. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="text-slate-400 hover:text-white transition">Facebook</a>
               <a href="#" className="text-slate-400 hover:text-white transition">Twitter</a>
@@ -66,7 +66,10 @@ export default function Footer() {
               <a href="#" className="text-slate-400 hover:text-white transition">Instagram</a>
             </div>
           </div>
+
         </div>
+
+        <h5 className='text-slate-400 text-sm text-center mt-9'>Designed and developed by <a className='text-slate-300 ' href="https://kanhaashutech.com" target='_blank'>KANHA-ASHU TECH</a></h5>
       </div>
     </footer>
   )

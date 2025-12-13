@@ -5,22 +5,22 @@ const benefits = [
   {
     icon: '📚',
     title: 'Expert-Crafted Curriculum',
-    description: 'Learn from industry experts with years of real-world experience'
+    description: 'Learn from experienced professionals who bring real-world knowledge into every lesson — not just theory.'
   },
   {
     icon: '⏰',
-    title: 'Learn at Your Pace',
-    description: 'Access courses anytime, anywhere. No rigid schedules'
+    title: 'Learn at Your Own Pace',
+    description: 'Study anytime, anywhere with full flexibility. Perfect for students, working professionals, and learners of all ages.'
   },
   {
     icon: '🎓',
     title: 'Certification Program',
-    description: 'Earn recognized certifications to boost your career'
+    description: 'Earn industry-relevant certifications that strengthen your profile and improve career opportunities.'
   },
   {
     icon: '💼',
-    title: 'Career Support',
-    description: 'Get job placement assistance and career counseling'
+    title: 'Career & Growth Support',
+    description: 'Career guidance & mentorship to help you navigate your learning journey and achieve your professional goals.'
   },
 ]
 
@@ -31,10 +31,10 @@ export default function BenefitsSection() {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Benefits of Online Tutoring Services at LmsZone
+           Benefits of Online Learning at VARAD VIDYA
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Transform your learning journey with our comprehensive platform designed for success
+          Transform your learning journey with a smart, flexible platform built for real-world success.
           </p>
         </div>
 

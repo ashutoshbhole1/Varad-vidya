@@ -25,13 +25,13 @@ export default function App() {
         <CoursesShowcase />
         <Statistics />
         <InstructorsSection />
-        <WorkshopsSection />
+        {/* <WorkshopsSection /> */}
         <TopCoursesSection />
         <TestimonialsSection />
         <FAQSection />
         <InstructorCTA />
         <BlogSection />
-        <NewsletterSection />
+        {/* <NewsletterSection /> */}
       </main>
       <Footer />
     </div>
