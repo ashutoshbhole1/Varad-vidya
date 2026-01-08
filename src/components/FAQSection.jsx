@@ -12,7 +12,7 @@ export default function FAQSection() {
   const [open, setOpen] = useState(0)
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-purple-50">
+    <section className="py-20 bg-gradient-to-b from-white to-purple-50" id='faq'>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-4 animate-fade-in-up">
           We're Here to Answer all Your Questions.

@@ -8,7 +8,7 @@ const blogs = [
 
 export default function BlogSection() {
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-blue-50">
+    <section id='blog' className="py-20 bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center mb-4 animate-fade-in-up">
           Our Blogs
