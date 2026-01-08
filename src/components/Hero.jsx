@@ -3,7 +3,7 @@ import { ArrowRight, Play } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="relative   bg-gradient-to-b from-blue-50 via-white to-white overflow-hidden pt-15 pb-32  ">
+    <section id='home' className="relative   bg-gradient-to-b from-blue-50 via-white to-white overflow-hidden pt-15 pb-32  ">
       {/* Background Elements */}
       {/* <div className="absolute inset-0 overflow-hidden pointer-events-none"> */}
         {/* Animated Gradient Orbs */}

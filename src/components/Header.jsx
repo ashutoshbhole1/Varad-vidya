@@ -16,10 +16,10 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-foreground hover:text-primary transition-smooth">Home</a>
-          <a href="#" className="text-foreground hover:text-primary transition-smooth">Courses</a>
-          <a href="#" className="text-foreground hover:text-primary transition-smooth">About</a>
-          <a href="#" className="text-foreground hover:text-primary transition-smooth">Contact</a>
+          <a href="#home" className="text-foreground hover:text-primary transition-smooth">Home</a>
+          <a href="#courses" className="text-foreground hover:text-primary transition-smooth">Courses</a>
+          <a href="#services" className="text-foreground hover:text-primary transition-smooth">Services</a>
+          <a href="#contact" className="text-foreground hover:text-primary transition-smooth">Contact</a>
         </div>
 
         {/* <div className="hidden md:flex items-center gap-4">
@@ -44,10 +44,10 @@ export default function Header() {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-border p-4 animate-fade-in-down">
           <div className="flex flex-col gap-4">
-            <a href="#" className="text-foreground hover:text-primary">Home</a>
-            <a href="#" className="text-foreground hover:text-primary">Courses</a>
-            <a href="#" className="text-foreground hover:text-primary">About</a>
-            <a href="#" className="text-foreground hover:text-primary">Contact</a>
+            <a href="#home" className="text-foreground hover:text-primary">Home</a>
+            <a href="#courses" className="text-foreground hover:text-primary">Courses</a>
+            <a href="#services" className="text-foreground hover:text-primary">Services</a>
+            <a href="#contact" className="text-foreground hover:text-primary">Contact</a>
             {/* <button className="px-4 py-2 rounded-lg border border-border w-full">Login</button>
             <button className="px-4 py-2 rounded-lg bg-gradient-primary text-white w-full">Sign Up</button> */}
           </div>

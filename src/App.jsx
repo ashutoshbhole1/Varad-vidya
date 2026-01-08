@@ -6,13 +6,14 @@ import BenefitsSection from './components/BenefitsSection'
 import CoursesShowcase from './components/CoursesShowcase'
 import Statistics from './components/Statistics'
 import InstructorsSection from './components/InstructorsSection'
-import WorkshopsSection from './components/WorkshopsSection'
+import Services from './components/Services'
 import TopCoursesSection from './components/TopCoursesSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import FAQSection from './components/FAQSection'
 import InstructorCTA from './components/InstructorCTA'
 import BlogSection from './components/BlogSection'
 import NewsletterSection from './components/NewsletterSection'
+import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -24,13 +25,14 @@ export default function App() {
         <BenefitsSection />
         <CoursesShowcase />
         <Statistics />
-        <InstructorsSection />
-        {/* <WorkshopsSection /> */}
-        <TopCoursesSection />
+        {/* <InstructorsSection /> */}
+        <Services /> 
+        {/* <TopCoursesSection /> */}
         <TestimonialsSection />
         <FAQSection />
-        <InstructorCTA />
+        {/* <InstructorCTA /> */}
         <BlogSection />
+        <ContactSection/>
         {/* <NewsletterSection /> */}
       </main>
       <Footer />
