@@ -1,5 +1,6 @@
 import React from 'react'
 import { Mail, MapPin, Phone } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-400 text-sm">
               <li><a href="#courses" className="hover:text-white transition">Courses</a></li>
               <li><a href="#services" className="hover:text-white transition">Services</a></li>
-              <li><a href="#blog" className="hover:text-white transition">Blog</a></li>
+              {/* <li><a href="#blog" className="hover:text-white transition">Blog</a></li> */}
               <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
             </ul>
           </div>
@@ -31,8 +32,10 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-400 text-sm">
               {/* <li><a href="#" className="hover:text-white transition">Help Center</a></li> */}
               <li><a href="#faq" className="hover:text-white transition">FAQ</a></li>
-              <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition">Terms</a></li>
+              <li><a href="/privacy-policy" target='_blank' className="hover:text-white transition">Privacy Policy</a></li>
+
+              <li><a href="/terms"  target='_blank' className="hover:text-white transition">Terms</a></li>
+              {/* <li><Link to='/terms'>asd</Link></li> */}
             </ul>
           </div>
 

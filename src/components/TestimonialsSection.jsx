@@ -121,7 +121,7 @@ export default () => {
                     </ul>
                 </div>
             </div>
-          <div className="absolute top-0 w-full h-[350px] bg-gradient-to-b from-blue-100 via-blue-50 to-white"></div>
+          <div className="absolute top-0 w-full h-[350px] bg-gradient-to-b from-testi-top via-blue-50 to-white"></div>
 
         </section>
     )

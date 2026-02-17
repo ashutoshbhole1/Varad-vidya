@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ContactSection() {
 
-    const servicesItems = ["Skill Development", "Digital Marketing", "Website Development", "E-Commerce"]
+    const servicesItems = ["Skill Development", "Digital Marketing", "Website Development", "E-Commerce", "Abacus Training", "Public Speaking"]
 
     return (
         <main className="flex overflow-hidden items-center p-2 mt-8 lg:mt-0 lg:p-5 flex-col lg:flex-row" id='contact'>
@@ -74,7 +74,7 @@ export default function ContactSection() {
 
                         <div>
                             <label className="font-medium">
-                                Services <span className='text-red-500'>*</span>
+                                Services / Courses <span className='text-red-500'>*</span>
                             </label>
                             <ul className="grid gap-y-2 gap-x-6 flex-wrap grid-cols-2 mt-3">
                                 {

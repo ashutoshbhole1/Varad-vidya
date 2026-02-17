@@ -31,7 +31,7 @@ export default function BenefitsSection() {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-           Benefits of Online Learning at VARAD VIDYA
+           Benefits of Online Learning at <span className='text-primary'> VARAD VIDYA</span>
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
           Transform your learning journey with a smart, flexible platform built for real-world success.
