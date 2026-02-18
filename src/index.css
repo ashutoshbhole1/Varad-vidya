@@ -65,7 +65,7 @@ body {
 
   line-height: 150px;
 
-  background: linear-gradient(130deg, #005fa7 40%, #66d4ff 86.8%);
+  background: linear-gradient(130deg, #005fa7 25%, #66d4ff 86.8%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
