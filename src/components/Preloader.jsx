@@ -16,7 +16,7 @@ const Preloader = ({ onComplete }) => {
         }
         return prev + 1
       })
-    }, 20) // speed (lower = faster)
+    }, 23) // speed (lower = faster)
 
     return () => clearInterval(interval)
   }, [onComplete])
