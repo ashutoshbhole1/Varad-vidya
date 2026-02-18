@@ -5,7 +5,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+    <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm ">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2 animate-fade-in-down">
           <div className="w-12 h-10 rounded-lg bg-gradient-primary flex items-center justify-center  font-bold">

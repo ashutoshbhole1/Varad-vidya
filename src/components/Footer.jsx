@@ -31,7 +31,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Support</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
               {/* <li><a href="#" className="hover:text-white transition">Help Center</a></li> */}
-              <li><a href="#faq" className="hover:text-white transition">FAQ</a></li>
+              <li><a href="/#faq" className="hover:text-white transition">FAQ</a></li>
               <li><a href="/privacy-policy" target='_blank' className="hover:text-white transition">Privacy Policy</a></li>
 
               <li><a href="/terms"  target='_blank' className="hover:text-white transition">Terms</a></li>
@@ -63,10 +63,10 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-slate-400 text-sm">© 2026 VARAD VIDYA. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
-              <a href="#" className="text-slate-400 hover:text-white transition">Facebook</a>
-              <a href="#" className="text-slate-400 hover:text-white transition">Twitter</a>
-              <a href="#" className="text-slate-400 hover:text-white transition">LinkedIn</a>
-              <a href="#" className="text-slate-400 hover:text-white transition">Instagram</a>
+              <a href="https://www.facebook.com/profile.php?id=61585605225500" target='_blank' className="text-slate-400 hover:text-white transition">Facebook</a>
+              {/* <a href="#" className="text-slate-400 hover:text-white transition">Twitter</a> */}
+              {/* <a href="" className="text-slate-400 hover:text-white transition">LinkedIn</a> */}
+              <a href="https://www.instagram.com/varad_vidya/" target='_blank' className="text-slate-400 hover:text-white transition">Instagram</a>
             </div>
           </div>
 

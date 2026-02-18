@@ -1,10 +1,13 @@
 import React from 'react'
 
 const workshops = [
-  { emoji: '🎓', title: 'Skill Development', description: 'Learn design principles and tools', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20Skill%20Development' },
-  { emoji: '📢', title: 'Digital Marketing', description: 'Learn design principles and tools', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20Digital%20Marketing' },
-  { emoji: '💻', title: 'E-Commerce', description: 'Build real-world web applications', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20E-COMMERCE' },
-  { emoji: '📱', title: 'Website Development', description: 'Create apps for iOS and Android', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20Website%20Development' },
+  { emoji: '🎓', title: 'Skill Development', description: 'We offer practical and career-oriented skill development programs for students, housewives, beginners, and aspiring professionals who want to build income-generating skills like english communication and grow with confidence.', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20Skill%20Development' },
+
+  { emoji: '📢', title: 'Digital Marketing', description: 'Grow your business with result-driven digital marketing strategies tailored to your brand. We offer complete digital marketing solutions including social media marketing, performance ads, SEO and lead generation campaigns.', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20Digital%20Marketing' },
+
+  { emoji: '💻', title: 'E-Commerce', description: 'Launch and scale your online store with our expert e-commerce website development services. We build high-performing, secure, and conversion-focused online stores using modern technologies and platforms.', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20E-COMMERCE' },
+
+  { emoji: '📱', title: 'Website Development', description: 'We design and develop responsive, fast, and SEO-optimized websites tailored to your business goals. Our website development services include corporate websites, portfolio websites, business websites, landing pages, and custom web applications.', link: 'https://wa.me/917507611753?text=I%20want%20more%20info%20regarding%20Website%20Development' },
 ]
 
 export default function Services() {
@@ -30,7 +33,7 @@ export default function Services() {
                 href={workshop.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full inline-block text-center px-4 py-2 bg-green-400 text-white rounded-lg font-semibold hover:shadow-lg transition-all group-hover:-translate-y-1"
+                className="w-full inline-block text-center px-4 py-2 bg-gradient-to-r from-primary  to-secondary text-white rounded-lg font-semibold hover:shadow-lg transition-all group-hover:-translate-y-1"
               >
                 Enquire Now
               </a>
